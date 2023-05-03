@@ -3,10 +3,13 @@
  */
 package com.tutorials.springtutorial;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author Roshika Perera
  *
  */
+@Component
 public class Bike implements Vehicle {
 
 	public void drive() {
